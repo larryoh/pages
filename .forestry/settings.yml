@@ -7,8 +7,7 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-  match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: _uploads
   label: Uploads
@@ -17,7 +16,7 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
-upload_dir: uploads
+upload_dir: attachments
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
